@@ -1,18 +1,59 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
-    <link rel="stylesheet" href="components/loader.css">
-    <script src="components/loader.js"></script>
-    <script>
-        //
-        // TODO: Write JavaScript code here
-        //
-    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comédia</title>
+    <style>
+        body {
+            margin: 10px;
+            padding: 0;
+            background-color: rgb(34, 30, 49);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            background-color: rgb(20, 16, 36);
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .image {
+            width: 300px;
+            height: 400px;
+            background-image: url('imgComedia.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .text {
+            flex: 1;
+            padding: 20px;
+            color: white;
+        }
+
+        .text h1 {
+            font-size: 36px;
+        }
+
+        .text p {
+            font-size: 20px;
+        }
+    </style>
 </head>
 <body>
-    <!-- TODO: Please edit here -->
+    <div class="container">
+        <div class="image"></div>
+        <div class="text">
+            <h1>Gente Grande</h1>
+            <p>A morte do treinador de basquete de infância de velhos amigos reúne a turma no mesmo lugar que celebraram um campeonato anos atrás. Os amigos, acompanhados de suas esposas e filhos, descobrem que idade não significa o mesmo que maturidade.</p>
+        </div>
+    </div>
 </body>
 </html>
